@@ -59,7 +59,7 @@ pub fn setup_chinese_fonts(ctx: &Context) -> Result<(), FontError> {
     // Insert the Chinese font
     fonts.font_data.insert(
         "chinese".to_owned(),
-        chinese_font_data,
+        chinese_font_data.into(),
     );
     
     // Configure font families
@@ -189,7 +189,7 @@ pub fn setup_custom_chinese_font(
     
     fonts.font_data.insert(
         name.to_owned(),
-        FontData::from_owned(font_data),
+        FontData::from_owned(font_data).into(),
     );
     
     fonts.families.entry(FontFamily::Proportional).or_default()
