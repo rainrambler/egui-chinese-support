@@ -15,10 +15,10 @@ rust-version = "1.70"
 exclude = ["target/", "examples/target/"]
 
 [dependencies]
-egui = "0.27"
+egui = "0.33"
 
 [dev-dependencies]
-eframe = "0.27"
+eframe = "0.33"
 
 # Optional platform-specific dependencies for advanced font discovery
 [target.'cfg(windows)'.dependencies]
