@@ -1,4 +1,4 @@
-# egui-chinese-font
+# egui-chinese-support
 
 [![Crates.io](https://img.shields.io/crates/v/egui-chinese-font.svg)](https://crates.io/crates/egui-chinese-font)
 [![Documentation](https://docs.rs/egui-chinese-font/badge.svg)](https://docs.rs/egui-chinese-font)
@@ -29,8 +29,8 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-egui-chinese-font = "0.1"
-egui = "0.27"
+egui-chinese-support = "0.1"
+egui = "0.33"
 ```
 
 ### Basic Usage
@@ -155,7 +155,7 @@ at your option.
 
 ### 概述
 
-`egui-chinese-font` 是一个专为 [egui](https://github.com/emilk/egui) GUI 框架设计的中文字体加载库。它能够自动检测并加载系统中的中文字体，让你的 Rust GUI 应用程序完美显示中文文本。
+`egui-chinese-support` 是一个专为 [egui](https://github.com/emilk/egui) GUI 框架设计的中文字体加载库。它能够自动检测并加载系统中的中文字体，让你的 Rust GUI 应用程序完美显示中文文本。
 
 ### 主要特性
 
@@ -183,7 +183,7 @@ at your option.
 
 ```toml
 [dependencies]
-egui-chinese-font = "0.1"
+egui-chinese-support = "0.1"
 egui = "0.27"
 eframe = "0.27"  # 如果你使用 eframe
 ```
@@ -361,7 +361,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-egui-chinese-font = "0.1.0"
+egui-chinese-support = "0.1.0"
 egui = "0.27.0"
 ```
 
