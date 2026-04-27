@@ -1,6 +1,6 @@
 [package]
 name = "egui-chinese-support"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["rainrambler <wanganyu@outlook.com>"]
 description = "Cross-platform Chinese font loading for egui applications"
@@ -14,10 +14,10 @@ rust-version = "1.70"
 exclude = ["target/", "examples/target/"]
 
 [dependencies]
-egui = "0.33"
+egui = "0.34"
 
 [dev-dependencies]
-eframe = "0.33"
+eframe = "0.34"
 
 # Optional platform-specific dependencies for advanced font discovery
 [target.'cfg(windows)'.dependencies]
