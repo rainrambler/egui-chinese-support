@@ -22,7 +22,7 @@ fn main() -> Result<(), eframe::Error> {
                 eprintln!("Failed to load Chinese fonts: {}", e);
             }
             
-            Box::new(ChineseFontDemo::default())
+            Ok(Box::new(ChineseFontDemo::default()))
         }),
     )
 }
