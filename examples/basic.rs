@@ -3,7 +3,7 @@
 //! This example demonstrates how to set up Chinese fonts for an egui application
 //! and displays various Chinese text samples.
 
-use egui_chinese_font::setup_chinese_fonts;
+use egui_chinese_support::setup_chinese_fonts;
 
 fn main() -> Result<(), eframe::Error> {
     let options = eframe::NativeOptions {
