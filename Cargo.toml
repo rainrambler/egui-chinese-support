@@ -1,7 +1,7 @@
 [package]
 name = "egui-chinese-support"
-version = "0.1.1"
-edition = "2021"
+version = "0.1.2"
+edition = "2024"
 authors = ["rainrambler <wanganyu@outlook.com>"]
 description = "Cross-platform Chinese font loading for egui applications"
 license = "MIT"
@@ -10,7 +10,7 @@ homepage = "https://github.com/rainrambler/egui-chinese-support"
 readme = "README.md"
 keywords = ["egui", "chinese", "font", "gui", "cjk"]
 categories = ["gui", "internationalization", "text-processing"]
-rust-version = "1.70"
+rust-version = "1.85"
 exclude = ["target/", "examples/target/"]
 
 [dependencies]
