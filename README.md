@@ -30,7 +30,7 @@ Add this to your `Cargo.toml`:
 ```toml
 [dependencies]
 egui-chinese-support = "0.1"
-egui = "0.33"
+egui = "0.34"
 ```
 
 ### Basic Usage
@@ -184,8 +184,8 @@ at your option.
 ```toml
 [dependencies]
 egui-chinese-support = "0.1"
-egui = "0.27"
-eframe = "0.27"  # 如果你使用 eframe
+egui = "0.34"
+eframe = "0.34"  # 如果你使用 eframe
 ```
 
 2. **基础使用**
