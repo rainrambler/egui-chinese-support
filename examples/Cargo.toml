@@ -6,8 +6,8 @@ publish = false
 
 [dependencies]
 egui-chinese-support = { path = ".." }
-eframe = "0.34"
-egui = "0.34"
+eframe = "0.36"
+egui = "0.36"
 
 [[bin]]
 name = "basic"
