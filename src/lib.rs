@@ -8,7 +8,7 @@
 //! ## Usage
 //! 
 //! ```rust,no_run
-//! use egui_chinese_font::setup_chinese_fonts;
+//! use egui_chinese_support::setup_chinese_fonts;
 //! 
 //! let ctx = egui::Context::default();
 //! setup_chinese_fonts(&ctx);
